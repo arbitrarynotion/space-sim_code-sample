@@ -21,7 +21,6 @@ namespace SpaceSim.Scripts.Runtime.AI.TaskSystem
             CustomLogger logger, CustomLogger orderLogger )
         {
             _orderManagerChannel = orderManagerChannel;
-            // _orderManagerChannel.OnOrderComplete += OnOrderComplete;
             _homeFactoryName = homeFactory.GetDisplayName();
             _logger = logger;
             
